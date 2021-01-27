@@ -1,0 +1,23 @@
+<html>
+<body>
+
+<div id="output"></div>
+
+  <input onclick="s(this)" type="submit" value="ana"> <br>
+  <input onclick="s(this)" type="submit" value="bob"> <br>
+  <input type="checkbox" onclick="cb()">
+
+<script>
+var button = ""
+
+	function s(a){
+		button = a.value;
+	}
+    
+   	function cb(){
+		document.getElementById("output").innerHTML = button
+	}
+</script>
+
+</body>
+</html>
